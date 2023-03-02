@@ -1,2 +1,2 @@
-user_carshop = "carlos"
-password_carshop = "1020"
+user_carshop = "flashii"
+password_carshop = "1234"
