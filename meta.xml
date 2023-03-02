@@ -1,0 +1,7 @@
+<meta>
+  <info author="JulioDeveloper" version="0.1" name="RocketBuffer3"/>
+  <script src="/src/config/config.lua" type="shared"/>
+  <script src="/src/core/client/client.lua" type="client"/>
+  <script src="/src/core/client/listener.lua" type="client"/>
+  <script src="/src/core/utils/utils.lua" type="shared"/>
+</meta>
