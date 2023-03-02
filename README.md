@@ -24,9 +24,9 @@
     - mostra o total de veiculos na concessionaria.
 
 ### Permissions
-add_carshop = OwnerCarShop;
-remove_carshop = OwnerCarShop;
-vehicles_carshop = Everyone;
+1. add_carshop = OwnerCarShop;
+2. remove_carshop = OwnerCarShop;
+3. vehicles_carshop = Everyone;
 
 
 ### Stacks
