@@ -24,10 +24,11 @@
     - mostra o total de veiculos na concessionaria.
 
 ### Permissions
-1. add_carshop = OwnerCarShop;
-2. remove_carshop = OwnerCarShop;
-3. vehicles_carshop = Everyone;
-
+1. login_carshop = Everyone;
+2. logout_carshop = OwnerCarShop
+3. add_carshop = OwnerCarShop;
+4. remove_carshop = OwnerCarShop;
+5. vehicles_carshop = Everyone;
 
 ### Stacks
 > LUA
