@@ -1,6 +1,6 @@
 # Simple Dealership Management.
 ### Descrição do sistema
-> O sistema consiste em ter um determinado usuário como dono e conseguir fazer alterações na concessionária, como: adicionar/remover veículos a venda.
+> O sistema consiste em ter um determinado usuário como dono e somente ele conseguir fazer alterações na concessionária, como: adicionar/remover veículos a venda.
 
 ### Task list
 - [X] Sistema de autenticação.
