@@ -1,2 +1,4 @@
-user_carshop = "flashii"
-password_carshop = "1234"
+config = {
+  vehicles_shop = {},
+  account_shop= { user = "flashii", pass = "1234" },
+}

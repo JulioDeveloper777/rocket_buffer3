@@ -3,30 +3,32 @@
 > O sistema consiste em ter um determinado usuário como dono e conseguir fazer alterações na concessionária, como: adicionar/remover veículos a venda.
 
 ### Task list
-- [X] Sistema de autenticação.
-- [X] Sistema de venda de veiculos.
-- [X] Adicionar Memory Leak.
+- [X] Criar tabela para armazenar os veiculos.
+- [X] Criar tabela para armazenar contas de usuarios pré definidas.
+- [X] Criar sistema de autenticação.
+- [X] Criar sistema de venda de veiculos.
+- [X] Apresentar memory Leak.
 
 ### Info Commands
-1. /add_carshop id_vehicle price
+1. /add_carshop amount price
      adiciona um veículo a venda com base nas informações que o jogador inseriu.
 
-2. /remove_carshop id_vehicle price
+2. /remove_carshop vehicle
      remove um veículo a venda.
 
 3. /login_carshop
-     loga na conta de owner com os dados inseridos no arquivo config.
+     loga em uma conta com base nos dados pre definidos no arquivo de config. 
 
 4. /logout_carshop
-     desloga da conta de owner.
+     desloga de uma conta caso esteje logado.
 
 5. /vehicles_carshop
      mostra o total de veiculos na concessionaria.
 
 ### Permissions
-add_carshop = OwnerCarShop;
-remove_carshop = OwnerCarShop;
-vehicles_carshop = Everyone;
+/add_carshop = OwnerCarShop;
+/remove_carshop = OwnerCarShop;
+/vehicles_carshop = Everyone;
 
 
 ### Stacks
